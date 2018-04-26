@@ -28,11 +28,11 @@
     vim /etc/shadowsocks.json
 
     {
-        "server": "45.76.51.55",
+        "server": "xxx.xxx.xxx.xxx",
         "local_address": "127.0.0.1",
         "local_port": "1080",
         "port_password":{
-            "12225":"maomaomin"
+            "yyyyy":"zzzzzzzzz"
         },
         "timeout":600,
         "method":"aes-256-cfb",
@@ -52,9 +52,9 @@
 
 ```bash
     {
-        "server":"45.76.51.55",
-        "server_port":12225,
-        "password":"maomaomin",
+        "server":"xxx.xxx.xxx.xxx",
+        "server_port":yyyyy,
+        "password":"zzzzzzzzz",
         "timeout":600,
         "method":"aes-256-cfb"
     }
